@@ -30,6 +30,7 @@ public class Etat extends javax.swing.JPanel {
 
         jTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField1.setText("-");
+        jTextField1.setEnabled(false);
         jTextField1.setName("txtFieldEtat"); // NOI18N
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
